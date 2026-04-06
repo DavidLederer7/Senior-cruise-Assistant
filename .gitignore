@@ -1,0 +1,17 @@
+# Personal config — use senior_cruise_config.example.json as the template.
+# Never commit this: it holds your promo code, UNI/school ID, and event details.
+senior_cruise_config.json
+
+# Python bytecode
+__pycache__/
+.pycache/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Build / distribution artifacts
+ticket-drop-assistant.zip
+
+# Separately-versioned shareable copy (its own git repo — see CONTRIBUTING.md)
+shareable-release/
